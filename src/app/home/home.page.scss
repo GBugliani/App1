@@ -25,3 +25,41 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card {
+  //background-color: beige;
+  opacity: 0.7;
+}
+
+ion-content {
+  --background: none;
+  background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+}
+
+#title1, #title2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#title1 {
+  color: blue;
+}
+
+#title2{
+  color: rgb(11, 225, 225);
+}
+
+.content {
+  font-style: italic;
+  text-align: justify;
+}
+
+.highlight {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
